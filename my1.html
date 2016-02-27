@@ -1,0 +1,84 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<script src="my1.js"></script>
+		<link rel="stylesheet" href="my1.css" type="text/css">
+	</head>
+	<body>
+		<header>
+			
+				<h1>TO DO LIST</h1>
+				<input type="button" value="create list" onclick="buttonFunc(this)">
+				<input type="button" value="delete list" onclick="deleteFromTable()">
+		</header>
+		<section id="sec">
+			
+			
+			
+			<div >
+				<table id="tasktable">
+					<tr>
+						<td>sno.</td>
+						<td>check</td>
+						<td>Tasks</td>
+						<td id="tabler0c4">Tasks remaining</td>
+						<td id="tabler0c5">Tasks done</td>
+					</tr>
+					<tr id="tablerw1"> 
+						<td id="tabler1c1">1.</td>
+						<td id="tabler1c2"><input type="checkbox" id="checkbox1" value="task1" 
+						onclick="lineThrough(value,this)"></td>
+						<td id="tabler1c3">&nbsp;</td>
+						<td rowspan="8" id="tabler1c4">0</td>
+						<td rowspan="8" id="tabler1c5">0</td>
+					</tr>
+					<tr id="tablerw2"> 
+						<td id="tabler2c1">2.</td>
+						<td id="tabler2c2"><input type="checkbox" id="checkbox2" value="task2" onclick="lineThrough(value,this)"></td>
+						<td id="tabler2c3">&nbsp;</td>
+					</tr>
+					<tr id="tablerw3"> 
+						<td id="tabler3c1">3.</td>
+						<td id="tabler3c2"><input type="checkbox" id="checkbox3" value="task3" onclick="lineThrough(value,this)"></td>
+						<td id="tabler3c3">&nbsp;</td>
+					</tr>
+					<tr id="tablerw4"> 
+						<td id="tabler4c1">4.</td>
+						<td id="tabler4c2"><input type="checkbox" id="checkbox4" value="task4" onclick="lineThrough(value,this)"></td>
+						<td id="tabler4c3">&nbsp;</td>
+					</tr>
+					<tr id="tablerw5"> 
+						<td id="tabler5c1">5.</td>
+						<td id="tabler5c2"><input type="checkbox" id="checkbox5" value="task5" onclick="lineThrough(value,this)"></td>
+						<td id="tabler5c3">&nbsp;</td>
+					</tr>
+					<tr id="tablerw6"> 
+						<td id="tabler6c1">6.</td>
+						<td id="tabler6c2"><input type="checkbox" id="checkbox6" value="task6" onclick="lineThrough(value,this)"></td>
+						<td id="tabler6c3">&nbsp;</td>
+					</tr>
+					<tr id="tablerw7"> 
+						<td id="tabler7c1">7.</td>
+						<td id="tabler7c2"><input type="checkbox" id="checkbox7" value="task7" onclick="lineThrough(value,this)"></td>
+						<td id="tabler7c3">&nbsp;</td>
+					</tr><tr id="tablerw8"> 
+						<td id="tabler8c1">8.</td>
+						<td id="tabler8c2"><input type="checkbox" id="checkbox8" value="task8" onclick="lineThrough(value,this)"></td>
+						<td id="tabler8c3">&nbsp;</td>
+					</tr><tr id="tablerw9"> 
+						<td id="tabler9c1">9.</td>
+						<td id="tabler9c2"><input type="checkbox" id="checkbox9" value="task9" onclick="lineThrough(value,this)"></td>
+						<td id="tabler9c3">&nbsp;</td>
+					</tr><tr id="tablerw10"> 
+						<td id="tabler10c1">10.</td>
+						<td id="tabler10c2"><input type="checkbox" id="checkbox10" value="task10" onclick="lineThrough(value,this)"></td>
+						<td id="tabler10c3">&nbsp;</td>
+					</tr>
+				</table>
+				
+			</div>
+		</section>
+		
+		
+	</body>
+</html>
